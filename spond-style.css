@@ -1,0 +1,232 @@
+th, tr {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    color: #FFFFFF!important;
+    line-height: normal;
+    text-align: left;
+    border: none !important;
+}
+
+td {
+    width: min-content;
+    font-size: 30px;
+    font-weight: 100;
+    border: none !important;
+}
+
+.tables {
+    width: 100%;
+    margin: 0% !important;
+    border: none !important;
+}
+         
+.btn-grad {
+    margin-top: 1%;
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
+    padding: 3px 19px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position:relative;
+    font-family: Inter !important;
+    font-size: 21px !important;
+    font-weight: 400 !important;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+ 
+
+.right {
+    margin-top: 3%;
+    margin-left: 69%;
+}
+
+.drop {
+    width: 298px !important;
+    height: 34px !important;
+    border-radius: 10px !important;    
+    border: 1px solid #000 !important;
+    background: #ffffff !important;
+    color: #000 !important;
+    font-family: Inter !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    float: right;
+}
+
+.text {
+    font-size: medium;      
+    font-weight: 400;
+    margin-top: 1%;
+    float: left;
+    margin-left: -5%;
+}
+.text2 {
+    position: absolute;
+    font-size: 35px;      
+    font-weight: 400;
+    left: 21%;
+    bottom: 12%;
+}
+
+.selector {
+    float: right;
+    margin-right: 10px;
+}
+
+.preview {
+    width: 997px;
+    height: 617px;
+    border-radius: 15px;
+    background: rgb(198,194,200);
+    background: linear-gradient(90deg, rgba(198,194,200,0.4) 0%, rgba(33,33,33,0.4) 50%, rgba(0,0,0,0.4) 100%);
+    position: absolute;
+    left: 20%;
+    top: 100%;
+    overflow: scroll;
+}
+
+.group {
+    top: 10%;
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    width: 250px;
+    height: 1px;
+    left: 21%;
+    bottom: 2%;
+    background: #808080;
+}
+
+.labels {
+    color: #868383;
+    font-family: Inter;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.inputs {
+    width: 202px;
+    height: 31px;
+    border: none !important;
+    border-radius: 15px !important;
+    background: #ffffff !important;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) !important;
+    margin-left: 5px !important;
+    margin-right: 10px !important;
+}
+
+.login-text {
+    color: #868383; 
+    font-family: Inter; 
+    font-size: 21px; 
+    font-weight: 400;
+    left: 37%; 
+    width: 400px; 
+    position: 
+    relative; 
+    top: 100%;
+}
+
+.container {
+    left: 25%;
+    position: relative;
+    width: 800px;
+}
+
+
+.description {
+    font-size:20px; 
+    font-weight:bold; 
+    left:3%; 
+    position:relative;
+}
+
+.endDate{
+    width: 70px; 
+    padding-right: 10px;
+}
+
+.dash{
+    width: 20px;
+}
+
+.startDate{
+    width: 70px;
+}
+
+.startTime{
+    width: 190px
+}
+
+.event{
+    padding-left: 10px; 
+    padding-bottom: 3px; 
+    font-weight: bolder; 
+    font-size:35px;
+}
+
+.row{
+    position: relative;
+}
+
+.agenda{
+    padding-bottom: 4px;
+    position: relative; 
+    text-align:center; 
+    font-size:50px;
+    width: 400px;
+}
+
+.timezone{
+    left: 28.5%; 
+    bottom: 8%; 
+    position: absolute;
+}
+
+.logo{
+    position:relative; 
+    width: 358px; 
+    height: 188px; 
+    left: 35%; 
+    top: 100%;
+}
+
+.mini-logo {
+    position: absolute;
+    top: 72%;
+    left: 15%;
+    height: 69px;
+    width: auto;
+}
+
+.register {
+    left: 32%;
+    position: relative;
+}
+
+.register-link {
+    background: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%);
+    -webkit-background-clip: text; /* For Safari/Chrome/iOS */
+    background-clip: text; /* Standard property */
+    color: transparent;
+}
+
+.register-link:hover {
+    color:#DD2476; /* Change this to the desired text color on hover */
+    text-decoration: underline;
+}
